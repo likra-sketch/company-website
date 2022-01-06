@@ -69,3 +69,29 @@ header .logo {
     height: auto;
 }
 
+/* Destintations section */
+
+#destinations-section {
+    width: 100%;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+}
+
+#destinations-section .content {
+    width: 100%;
+}
+
+.destinations-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.destination {
+    width: 33%;
+}
+
+.destination img {
+    width: 100%;
+    height: auto;
+}
