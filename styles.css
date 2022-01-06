@@ -18,3 +18,48 @@ body {
     text-align: center;
 }
 
+/* Header */
+
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #c6c1c1;
+    background-color: white;
+    z-index: 1;
+}
+
+header .header-content {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+
+header .logo {
+    flex: 1;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding-left: 3.5rem;
+}
+
+.navbar a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+  }
+
+.navbar a:hover {
+    text-decoration: underline
+  }
+
+  
