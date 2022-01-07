@@ -167,6 +167,33 @@ header .logo {
     height: auto;
 }
 
+/* Events section */
+
+#events-section {
+    width: 100%;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+}
+
+#events-section .content {
+    width: 100%;
+}
+
+.events-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.event-item {
+    width: 50%;
+    margin: 0 1rem;
+}
+
+.event-item img {
+    width: 100%;
+    height: auto;
+}
 
 
 
