@@ -235,3 +235,7 @@ header .logo {
     width: 100%;
     height: auto;
 }
+
+.team-member-text {
+    text-align: justify;
+}
