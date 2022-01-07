@@ -195,5 +195,43 @@ header .logo {
     height: auto;
 }
 
+/* About Us section */
 
+#about-us-section {
+    width: 100%;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
 
+#about-us-section .content {
+    width: 100%;
+}
+
+#about-us-section .mission {
+    width: 100%;
+    margin: 2rem 1rem;
+}
+
+#about-us-section .mission p {
+    font-family: "Libre Baskerville";
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+
+.team-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.team-member {
+    width: 25%;
+    margin: 0 0.5rem;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+}
