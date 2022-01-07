@@ -95,3 +95,28 @@ header .logo {
     width: 100%;
     height: auto;
 }
+
+/* Planning section */
+
+#planning-section {
+    width: 100%;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+#planning-section .content {
+    width: 100%;
+}
+
+.planning-container {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.planning-items-list {
+    width: 33%;
+}
+
+
