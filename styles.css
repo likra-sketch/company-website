@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+h3 {
+    font-weight: normal;
+}
+
 .image-container img {
     display: block;
 }
@@ -128,6 +132,11 @@ header .logo {
     align-self: center;
 }
 
+.planning-item h3 {
+    align-self: center;
+    margin: 0;
+}
+
 .icon {
     margin: 0 0.4rem;
 }
@@ -229,6 +238,14 @@ header .logo {
 .team-member {
     width: 25%;
     margin: 0 0.5rem;
+}
+
+.team-member h3 {
+    margin-bottom: 0.5rem;
+}
+
+.team-member h4 {
+    margin: 0 0 0.5rem 0;
 }
 
 .team-member img {
