@@ -119,4 +119,21 @@ header .logo {
     width: 33%;
 }
 
+.planning-item {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.planning-item a {
+    align-self: center;
+}
+
+.icon {
+    margin: 0 0.4rem;
+}
+
+.icon img {
+    width: 2rem;
+    height: auto;
+}
 
