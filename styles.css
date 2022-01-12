@@ -71,9 +71,44 @@ header .logo img {
     text-decoration: underline
   }
 
+.mobile {
+    display: none;
+}
+
+.mobile ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.mobile li {
+    padding: 0;
+    margin: 0;
+}
+
+.mobile a {
+    line-height: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black
+}
+
 @media only screen and (max-width: 890px) {
     .navbar li {
         padding-left: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .desktop {
+        display: none;
+    }
+    
+    .mobile {
+        display: block;
+    }
+
+    header .header-content {
+        height: 4rem;
     }
 }
 
