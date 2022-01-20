@@ -119,6 +119,10 @@ header .logo img {
 
 /* Teaser section */
 
+#teaser-section {
+    padding-top: 5rem;
+}
+
 .teaser img {
     width: 100%;
     height: auto;
