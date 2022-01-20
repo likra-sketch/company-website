@@ -168,6 +168,16 @@ header .logo img {
     height: auto;
 }
 
+@media only screen and (max-width: 730px) {
+    .destinations-container {
+        flex-flow: column;
+    }
+    
+    .destination {
+        width: 100%;
+    }
+}
+
 /* Planning section */
 
 #planning-section {
@@ -255,6 +265,17 @@ header .logo img {
     height: auto;
 }
 
+@media only screen and (max-width: 730px) {
+    .sustainability-container {
+        flex-flow: column;
+    }
+
+    .sustainability-item {
+        width: 100%;
+        margin: 0;
+    }
+}
+
 /* Events section */
 
 #events-section {
@@ -281,6 +302,17 @@ header .logo img {
 .event-item img {
     width: 100%;
     height: auto;
+}
+
+@media only screen and (max-width: 730px) {
+    .events-container {
+        flex-flow: column;
+    }
+
+    .event-item {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /* About Us section */
@@ -358,8 +390,21 @@ header .logo img {
     .team-member {
         width: 45%;
     }
+}
 
+@media only screen and (max-width: 730px) {
+    .team-container {
+        flex-flow: column;
+    }
 
+    .team-member {
+        width: 100%;
+        margin: 0;
+    }
+
+    #about-us-section .mission {
+        margin: 0;
+    }
 }
 
 /* Footer */
@@ -419,3 +464,11 @@ footer .contact-us {
         margin-bottom: 1rem;
     }
 } 
+
+@media only screen and (max-width: 730px) {
+    .footer-destinations {
+        flex-flow: column;
+    }
+
+
+}
