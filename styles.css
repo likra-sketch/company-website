@@ -394,6 +394,14 @@ header .logo img {
     .team-member {
         width: 45%;
     }
+
+    .team-member .desktop {
+        display: block;
+    }
+    
+    .team-member .tablet {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 730px) {
