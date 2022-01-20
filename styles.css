@@ -129,6 +129,12 @@ header .logo img {
     height: auto;
 }
 
+@media only screen and (max-width: 730px) {
+    #teaser-section {
+        padding-top: 4rem;
+    }
+}
+
 /* Destintations section */
 
 #destinations-section {
